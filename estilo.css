@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0%;
+}
+body {
+    text-align: center;
+}
+.bodyColor {
+    background-color: #57606f;
+}
+.isotipo:hover {
+    transform: scale(2,1);
+}
+#titulo {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 540%;
+    margin-top: 2%;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-name: color_titulo;
+}
+    @keyframes color_titulo {
+        100% {
+            background-color: #273c75;
+        }
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 220%;
+    color:black;
+    margin-bottom: 3%;
+    font-weight: bolder;
+}
+.menu {
+    text-indent: 1em;
+    margin-top: 2%;
+    padding: 2% 0% 0% 0%;
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+button a {
+    text-decoration: none;
+}
+.dropdown-menu li a{
+    background-color: #7158e2;
+    overflow: hidden;
+}
+.titulosSecciones {
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    color: #1e272e;
+    font-size: 260%;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+    letter-spacing: 10px;
+}
+ul li {
+    list-style: none;
+}
+.subtitulosNstrosTrabajos {
+    text-align: justify;
+    margin: 4% 0% 2% 1%;
+    transition: all 2s;
+}
+.subtitulosNstrosTrabajos:hover {
+    background-color: #786fa6;
+    margin-right: 80%;
+}
+.galeriaFotos {
+    width: 100%;
+    max-width: 1200px;
+    margin: 2% 5% 0% 5%;
+}
+.galeriaFotos img {
+    border: solid 2px #84817a;
+}
+.galeriaFotos p {
+    font-size: 125%;
+    text-align: center;
+}
+p {
+   font-size: 18px;
+   text-indent: 1em;
+   text-align: justify;
+   font-family: 'Nunito', sans-serif;
+   color: black;
+   margin: 1% 2% 1% 0%;
+}
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin: 5% auto;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: repeat(3,1fr);
+}
+.contenedor h2 {
+    font-size: 230%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-duration: 3s;
+    animation-name: aparecer;
+ }
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 2;
+    }
+}
+.imagenesContenedor {
+    width: 80%;
+    height: 70%;
+    border: groove 1px grey;
+    margin: 8% 2% 0% 1%;
+    
+}
+ .imagenDeFondo {
+    background-image: url("Imágenes/Galería/cleanliness-2799464_1920.jpg");
+    font-size: 325%;
+    color: black;
+    border-radius: 3%;
+    margin: 3% 0% 0% 0%;
+    padding: 1% 3% 1% 3%;
+ }
+ footer{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 150%;
+    background-color: #9fa4c4;
+    background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+ }
+ footer p{
+     margin-top: 2.5%;
+ }
+ .logoPequeno {
+    width: 2%; 
+    height: 2%;
+    margin: 2.5% 0% 2% 5%;
+ }
+ .formulario {
+   margin: 2% 0% 2% 1.2%;
+ }
+ form {
+    text-align: justify;
+    color: black;
+    margin: 0% 0% 3% 2.5%;
+ } 
+ form legend {
+    text-decoration: underline;
+    margin-bottom: 1px;
+ }
+ form label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    height: 50%;
+ }
+ textarea {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+ }
+ @media screen and (max-width:576px) {
+    .bodyColor {
+        background-color: #3c6382
+    }
+    .btn-group {
+        width: 100%;
+        float: none;
+    }
+ }
+ @media screen and (max-width:768px) {
+     .bodyColor {
+         background-color: #3c6382
+     }
+     .btn-group {
+         width: 100%;
+         float: none;
+     }
+ }
+ @media screen and (max-width:992px) {
+     body {
+         grid-template-columns: repeat (2, 1fr);
+         background-color: #57606f;
+ }
+}
