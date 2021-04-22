@@ -9,9 +9,6 @@ body {
 .bodyColor {
     background-color: #57606f;
 }
-.isotipo:hover {
-    transform: scale(2,1);
-}
 #titulo {
     color: black;
     font-family: 'Inter', sans-serif;
