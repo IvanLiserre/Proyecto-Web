@@ -175,8 +175,8 @@ p {
         float: none;
     }
        @keyframes color_titulo {
-        50% {
-            background-color: #273c75;
+        10% {
+            background-color: none;
         }
  }
 }
@@ -189,8 +189,8 @@ p {
         float: none;
     }
       @keyframes color_titulo {
-        50% {
-            background-color: #273c75;
+        100% {
+            background-color: none;
         }
  }
 }
