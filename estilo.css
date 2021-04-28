@@ -175,7 +175,7 @@ p {
         float: none;
     }
        @keyframes color_titulo {
-        200% {
+        50% {
             background-color: #273c75;
         }
  }
@@ -189,7 +189,7 @@ p {
         float: none;
     }
       @keyframes color_titulo {
-        200% {
+        50% {
             background-color: #273c75;
         }
  }
