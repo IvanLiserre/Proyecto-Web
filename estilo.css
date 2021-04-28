@@ -174,7 +174,12 @@ p {
         width: 100%;
         float: none;
     }
+       @keyframes color_titulo {
+        200% {
+            background-color: #273c75;
+        }
  }
+}
  @media screen and (max-width: 480px) {
     .bodyColor {
         background-color: #3c6382;
@@ -183,7 +188,12 @@ p {
         width: 100%;
         float: none;
     }
+      @keyframes color_titulo {
+        200% {
+            background-color: #273c75;
+        }
  }
+}
  @media screen and (max-width:576px) {
     .bodyColor {
         background-color: #3c6382;
