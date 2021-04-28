@@ -12,7 +12,7 @@ body {
 #titulo {
     color: black;
     font-family: 'Inter', sans-serif;
-    font-size: 500%;
+    font-size: 400%;
     margin-top: 2%;
     animation-duration: 3s;
     animation-delay: 0s;
@@ -23,6 +23,12 @@ body {
         100% {
             background-color: #273c75;
         }
+}
+.subTitulo {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 180%;
+        color:black;
+        margin-bottom: 3%;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -166,29 +172,16 @@ p {
     display: flex;
     flex-direction: column;
  }
- @media screen and (max-width: 320px) {
-     body {
-         text-align: center;
-     }
-    .bodyColor {
-        background-color: #3c6382;
-    }
-    .btn-group {
-        width: 100%;
-        float: none;
-    }
-    @keyframes color_titulo {
-        100% {
-            background-color: #273c75;
-        }
- }
- }
  @media screen and (max-width: 480px) {
      body {
          text-align: center;
+         width: 100%;
+         float: none;
      }
     .bodyColor {
         background-color: #3c6382;
+        width: auto;
+        float: none;
     }
     .btn-group {
         width: 100%;
@@ -197,20 +190,9 @@ p {
     @keyframes color_titulo {
         100% {
             background-color: #273c75;
+            overflow: hidden;
         }
  }
-}
- @media screen and (max-width:576px) {
-     body {
-         text-align: center;
-     }
-    .bodyColor {
-        background-color: #3c6382;
-    }
-    .btn-group {
-        width: 100%;
-        float: none;
-    }
  }
  @media screen and (max-width:768px) {
      .bodyColor {
