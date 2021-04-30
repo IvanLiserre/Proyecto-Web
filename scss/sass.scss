@@ -1,0 +1,91 @@
+* {
+   margin: 0;
+   padding: 0;
+   margin-bottom: 0%;
+}
+@import "scss/bootstrap-4.5.3/scss/mixins/grid-framework";
+@import "scss/bootstrap-4.5.3/scss/mixins/buttons";  
+@import "scss/bootstrap-4.5.3/scss/mixins/alert";
+
+$colores: (
+   primario: #57606f,
+   secundario: #6F1E51,
+);
+$margen: 2%;
+$letra: 'Montserrat', sans-serif;
+$centrado: center;
+$izquierdo: left;
+$columna: column;
+$fila: row;
+$ancho: 100%;
+$alto: 50%;
+$tamano: 120%;
+$color: brown;
+$gutter: 50px;
+$animal: puma;
+
+$primario: map-get($colores, primario);
+.bodyColor {
+  background-color: $primario;
+  text-align: $centrado;
+}
+$secundario: map-get($colores,secundario);
+h1 {
+   color: $secundario;
+   margin-top: $margen;
+   margin-bottom: $margen;
+   font-family: $letra;
+   font-size: $tamano+80;
+   text-shadow: -1px -1px 0 black,  
+   1px -1px 0 black,
+  -1px 1px 0 black,
+   1px 1px 0 black,
+}  
+.parrafo {
+   font-family: $letra;
+   font-size: $tamano;
+}
+.formulario {
+   margin-top: $margen;
+   margin-left: $margen;
+   text-align: $izquierdo;
+   font-size: $tamano;
+   legend {
+      text-decoration: underline;
+   }
+   label {
+      display: flex;
+      flex-direction: $columna;
+      margin-top: $margen;
+      width: $ancho;
+      height: $alto;
+   }
+   textarea {
+      display:flex;
+      flex-direction: $columna;
+   }
+}
+footer {
+   margin-top: $margen;
+   margin-bottom:0%;
+   display: flex;
+   flex-direction: $fila;
+   justify-content: space-around;
+   font-size: $tamano+100;
+   background-color: #9fa4c4;
+   background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+}
+
+@for $i from 1 through 3 {
+   .gutter-#{$i} {width: 2em * $i;}
+}
+@each $animal in puma, sea-slug, egret {
+   .#{animal}-icon {
+      background-color: brown;
+   }
+}
+@each $red, $color in $colores {
+   .btn--#{rgb(225, 0, 255)} {
+      background-color: $color;
+   }
+}
