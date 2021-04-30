@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0%; }
+
+.bodyColor {
+  background-color: #57606f;
+  text-align: center; }
+
+h1 {
+  color: #6F1E51;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 200%;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
+
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 120%; }
+
+.formulario {
+  margin-top: 2%;
+  margin-left: 2%;
+  text-align: left;
+  font-size: 120%; }
+  .formulario legend {
+    text-decoration: underline; }
+  .formulario label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 100%;
+    height: 50%; }
+  .formulario textarea {
+    display: flex;
+    flex-direction: column; }
+
+footer {
+  margin-top: 2%;
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 220%;
+  background-color: #9fa4c4;
+  background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%); }
+
+.gutter-1 {
+  width: 2em; }
+
+.gutter-2 {
+  width: 4em; }
+
+.gutter-3 {
+  width: 6em; }
+
+.animal-icon {
+  background-color: brown; }
+
+.animal-icon {
+  background-color: brown; }
+
+.animal-icon {
+  background-color: brown; }
+
+.btn--#e100ff {
+  background-color: #57606f; }
+
+.btn--#e100ff {
+  background-color: #6F1E51; }
