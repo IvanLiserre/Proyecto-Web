@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     margin-bottom: 0%;
 }
 body {
@@ -36,6 +36,11 @@ h2 {
     color:black;
     margin-bottom: 3%;
     font-weight: bolder;
+}
+h5 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
 }
 .menu {
     text-indent: 1em;
@@ -74,7 +79,7 @@ ul li {
 .galeriaFotos {
     width: 100%;
     max-width: 1200px;
-    margin: 2% 5% 0% 5%;
+    margin: 2% 5% 0% 6%;
 }
 .galeriaFotos img {
     border: solid 2px #84817a;
@@ -120,8 +125,7 @@ p {
     width: 80%;
     height: 70%;
     border: groove 1px grey;
-    margin: 8% 2% 0% 1%;
-    
+    margin: 8% 2% 0% 1%;  
 }
  .imagenDeFondo {
     background-image: url("Imágenes/Galería/cleanliness-2799464_1920.jpg");
@@ -171,17 +175,18 @@ p {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
+    font-size: 150%;
  }
  @media screen and (max-width: 480px) {
      body {
          text-align: center;
-         width: 100%;
+         width: 200%;
          float: none;
      }
     .bodyColor {
         background-color: #3c6382;
-        width: auto;
-        float: none;
+        width: 100%;
+        float: left;
     }
     .btn-group {
         width: 100%;
@@ -192,8 +197,17 @@ p {
             background-color: #273c75;
             overflow: hidden;
         }
- }
- }
+    }
+    .imagenesContenedor {
+        display: none;
+    }
+    h2 {
+        text-align: justify;
+    }
+    .galeriaFotos {
+        margin: 2% 5% 0% 0%;
+    }
+}
  @media screen and (max-width:768px) {
      .bodyColor {
          background-color: #3c6382;
