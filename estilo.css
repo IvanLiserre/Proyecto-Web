@@ -12,7 +12,7 @@ body {
 #titulo {
     color: black;
     font-family: 'Inter', sans-serif;
-    font-size: 400%;
+    font-size: 485%;
     margin-top: 2%;
     animation-duration: 3s;
     animation-delay: 0s;
@@ -26,7 +26,7 @@ body {
 }
 .subTitulo {
         font-family: 'Montserrat', sans-serif;
-        font-size: 180%;
+        font-size: 200%;
         color:black;
         margin-bottom: 3%;
 }
@@ -89,7 +89,7 @@ ul li {
     text-align: center;
 }
 p {
-   font-size: 18px;
+   font-size: 100%;
    text-indent: 1em;
    text-align: justify;
    font-family: 'Nunito', sans-serif;
@@ -145,12 +145,12 @@ p {
     background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
  }
  footer p{
-     margin-top: 2.5%;
+    margin-top: 2.5%;
  }
  .logoPequeno {
-    width: 2%; 
-    height: 2%;
-    margin: 2.5% 0% 2% 5%;
+    width: 12%;
+    height: 25%;
+    margin: 15% 0% 2% 5%;
  }
  .formulario {
    margin: 2% 0% 2% 1.2%;
@@ -199,10 +199,19 @@ p {
         }
     }
     .imagenesContenedor {
-        display: none;
+        visibility: hidden;
+
     }
     h2 {
+        text-align: center;
+    }
+    p {
+        font-size: 75%;
+        text-indent: 1em;
         text-align: justify;
+        font-family: 'Nunito', sans-serif;
+        color: black;
+        margin: 1% 2% 1% 0%;
     }
     .galeriaFotos {
         margin: 2% 5% 0% 0%;
