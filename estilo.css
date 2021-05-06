@@ -9,6 +9,15 @@ body {
 .bodyColor {
     background-color: #57606f;
 }
+.bodyColor2 {
+    background-image: url(Imágenes/Galería/subliminal.gif);
+}
+.bodyColor5 {
+    background-image: url(Imágenes/Galería/prism.png);
+}
+.bodyColor3 {
+    background-image: url(Imágenes/Galería/foundation.gif);
+}
 #titulo {
     color: black;
     font-family: 'Inter', sans-serif;
@@ -25,13 +34,13 @@ body {
         }
 }
 .subTitulo {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 200%;
+        font-family: 'Rubik', sans-serif;
+        font-size: 210%;
         color:black;
-        margin-bottom: 3%;
+        margin: 2% 0% 1% 0%;
 }
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 200%;
     color:black;
     margin-bottom: 3%;
@@ -58,7 +67,7 @@ button a {
 }
 .titulosSecciones {
     margin-top: 2%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: #1e272e;
     font-size: 260%;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
@@ -68,6 +77,7 @@ ul li {
     list-style: none;
 }
 .subtitulosNstrosTrabajos {
+    font-size: 220%;
     text-align: justify;
     margin: 4% 0% 2% 1%;
     transition: all 2s;
@@ -85,14 +95,14 @@ ul li {
     border: solid 2px #84817a;
 }
 .galeriaFotos p {
-    font-size: 125%;
+    font-size: 150%;
     text-align: center;
 }
 p {
-   font-size: 100%;
+   font-size: 120%;
    text-indent: 1em;
    text-align: justify;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Karla', sans-serif;
    color: black;
    margin: 1% 2% 1% 0%;
 }
@@ -106,7 +116,7 @@ p {
 }
 .contenedor h2 {
     font-size: 230%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Karla', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,32 +135,34 @@ p {
     width: 80%;
     height: 70%;
     border: groove 1px grey;
+    border-radius: 50%;
     margin: 8% 2% 0% 1%;  
 }
  .imagenDeFondo {
-    background-image: url("Imágenes/Galería/cleanliness-2799464_1920.jpg");
-    font-size: 325%;
-    color: black;
+    background-image: url("Imágenes/Galería/space-4152623_1920.jpg");
+    font-size: 300%;
+    font-weight: bolder;
     border-radius: 3%;
     margin: 3% 0% 0% 0%;
     padding: 1% 3% 1% 3%;
+    opacity: 200%;
  }
  footer{
-    margin-top: 0%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 150%;
+    font-size: 120%;
     background-color: #9fa4c4;
     background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
  }
  footer p{
-    margin-top: 2.5%;
+    text-align: justify;
+    margin: 2.5% 0% 1% 3%;
  }
  .logoPequeno {
     width: 12%;
     height: 25%;
-    margin: 15% 0% 2% 5%;
+    margin: 12% 0% 2% 0%;
  }
  .formulario {
    margin: 2% 0% 2% 1.2%;
@@ -209,7 +221,7 @@ p {
         font-size: 75%;
         text-indent: 1em;
         text-align: justify;
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Karla', sans-serif;
         color: black;
         margin: 1% 2% 1% 0%;
     }
