@@ -21,7 +21,7 @@ body {
 #titulo {
     color: black;
     font-family: 'Inter', sans-serif;
-    font-size: 485%;
+    font-size: 400%;
     margin-top: 2%;
     animation-duration: 3s;
     animation-delay: 0s;
@@ -35,7 +35,7 @@ body {
 }
 .subTitulo {
         font-family: 'Rubik', sans-serif;
-        font-size: 210%;
+        font-size: 180%;
         color:black;
         margin: 2% 0% 1% 0%;
 }
@@ -140,7 +140,7 @@ p {
 }
  .imagenDeFondo {
     background-image: url("Imágenes/Galería/space-4152623_1920.jpg");
-    font-size: 300%;
+    font-size: 250%;
     font-weight: bolder;
     border-radius: 3%;
     margin: 3% 0% 0% 0%;
@@ -152,17 +152,17 @@ p {
     flex-direction: row;
     justify-content: space-around;
     font-size: 120%;
-    background-color: #9fa4c4;
-    background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+    background-color: #b1bfd8;
+    background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
  }
  footer p{
     text-align: justify;
     margin: 2.5% 0% 1% 3%;
  }
  .logoPequeno {
-    width: 12%;
-    height: 25%;
-    margin: 12% 0% 2% 0%;
+    width: 10%;
+    height: 30%;
+    margin: 12% 0% 2% 0%;   
  }
  .formulario {
    margin: 2% 0% 2% 1.2%;
