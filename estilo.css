@@ -12,11 +12,11 @@ body {
 .bodyColor2 {
     background-image: url(Imágenes/Galería/subliminal.gif);
 }
-.bodyColor5 {
-    background-image: url(Imágenes/Galería/prism.png);
-}
 .bodyColor3 {
     background-image: url(Imágenes/Galería/foundation.gif);
+}
+.bodyColor5 {
+    background-image: url(Imágenes/Galería/prism.png);
 }
 #titulo {
     color: black;
@@ -197,6 +197,21 @@ p {
      }
     .bodyColor {
         background-color: #3c6382;
+        width: 100%;
+        float: left;
+    }
+    .bodyColor2 {
+        background-image: url(Imágenes/Galería/subliminal.gif);
+        width: 100%;
+        float: left;
+    }
+    .bodyColor3 {
+        background-image: url(Imágenes/Galería/foundation.gif);
+        width: 100%;
+        float: left;
+    }
+    .bodyColor5 {
+        background-image: url(Imágenes/Galería/prism.png);
         width: 100%;
         float: left;
     }
