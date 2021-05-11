@@ -10,18 +10,18 @@ body {
     background-color: #57606f;
 }
 .bodyColor2 {
-    background-image: url(Imágenes/Galería/subliminal.gif);
+    background-image: url(Imágenes/Galería/subliminal.png);
 }
 .bodyColor3 {
-    background-image: url(Imágenes/Galería/foundation.gif);
+    background-image: url(Imágenes/Galería/foundation.png);
 }
 .bodyColor5 {
-    background-image: url(Imágenes/Galería/prism.png);
+    background-image: url(Imágenes/Galería/violet-fabric.png);
 }
 #titulo {
     color: black;
     font-family: 'Inter', sans-serif;
-    font-size: 400%;
+    font-size: 500%;
     margin-top: 2%;
     animation-duration: 3s;
     animation-delay: 0s;
@@ -35,7 +35,7 @@ body {
 }
 .subTitulo {
         font-family: 'Rubik', sans-serif;
-        font-size: 180%;
+        font-size: 220%;
         color:black;
         margin: 2% 0% 1% 0%;
 }
@@ -192,28 +192,31 @@ p {
  @media screen and (max-width: 480px) {
      body {
          text-align: center;
-         width: 200%;
+         width: 100%;
          float: none;
      }
     .bodyColor {
         background-color: #3c6382;
         width: 100%;
-        float: left;
+        float: none;
     }
     .bodyColor2 {
-        background-image: url(Imágenes/Galería/subliminal.gif);
+        background-image: url(Imágenes/Galería/subliminal.png);
         width: 100%;
-        float: left;
+        float: none;
     }
     .bodyColor3 {
-        background-image: url(Imágenes/Galería/foundation.gif);
+        background-image: url(Imágenes/Galería/foundation.png);
         width: 100%;
-        float: left;
+        float: none;
     }
     .bodyColor5 {
-        background-image: url(Imágenes/Galería/prism.png);
+        background-image: url(Imágenes/Galería/violet-fabric.png);
         width: 100%;
-        float: left;
+        float: none;
+    }
+    #titulo {
+        font-size: 350%;
     }
     .btn-group {
         width: 100%;
@@ -225,9 +228,11 @@ p {
             overflow: hidden;
         }
     }
+    .titulosSecciones {
+        margin-left: 2%;
+    }
     .imagenesContenedor {
         visibility: hidden;
-
     }
     h2 {
         text-align: center;
@@ -235,13 +240,16 @@ p {
     p {
         font-size: 75%;
         text-indent: 1em;
-        text-align: justify;
+        text-align: left;
         font-family: 'Karla', sans-serif;
         color: black;
         margin: 1% 2% 1% 0%;
     }
     .galeriaFotos {
-        margin: 2% 5% 0% 0%;
+        margin: 18% 5% 29% 0%;
+    }
+    .formulario {
+     margin: 2% 2% 2% 2%;
     }
 }
  @media screen and (max-width:768px) {
