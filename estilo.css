@@ -1,0 +1,333 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+body {
+    text-align: center;
+}
+.bodyColor {
+    background-color: #57606f;
+}
+.bodyColorNstrosTrabajos {
+    background-image: url("Imagenes/Galeria/subliminal.png");
+}
+.bodyColorSobreNos {
+    background-image: url("Imagenes/Galeria/foundation.png");
+}
+.bodyColorContacto {
+    background-image: url("Imagenes/Galeria/ridge.png");
+}
+.isotipo {
+    margin-top: 1%;
+}
+#titulo {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 500%;
+    margin-top: 2%;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-name: color_titulo;
+}
+    @keyframes color_titulo {
+        100% {
+            background-color: #273c75;
+        }
+}
+.subTitulo {
+        font-family: 'Rubik', sans-serif;
+        font-size: 220%;
+        color:black;
+        margin: 2% 0% 1% 0%;
+}
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 200%;
+    color:black;
+    margin-bottom: 3%;
+    font-weight: bolder;
+}
+h5 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.menu {
+    text-indent: 1em;
+    margin-top: 2%;
+    padding: 2% 0% 0% 0%;
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+button a {
+    text-decoration: none;
+}
+.dropdown-menu li a{
+    background-color: #7158e2;
+}
+.titulosSecciones {
+    margin-top: 2%;
+    font-family: 'Rubik', sans-serif;
+    color: #1e272e;
+    font-size: 260%;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+    letter-spacing: 10px;
+}
+ul li {
+    list-style: none;
+}
+.subtitulosNstrosTrabajos {
+    font-size: 220%;
+    text-align: justify;
+    margin: 4% 0% 2% 1%;
+    transition: all 2s;
+}
+.subtitulosNstrosTrabajos:hover {
+    background-color: #786fa6;
+    margin-right: 80%;
+}
+.galeriaFotos {
+    width: 100%;
+    max-width: 1200px;
+    margin: 2% 5% 0% 6%;
+}
+.galeriaFotos img {
+    border: solid 2px #84817a;
+}
+.galeriaFotos p {
+    font-size: 150%;
+    text-align: center;
+}
+p {
+   font-size: 120%;
+   text-indent: 1em;
+   text-align: justify;
+   font-family: 'Hind Siliguri', sans-serif;
+   color: black;
+   margin: 1% 2% 1% 0%;
+}
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin: 5% auto;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: repeat(3,1fr);
+}
+.contenedor h2 {
+    font-size: 230%;
+    font-family: 'Hind Siliguri', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-duration: 3s;
+    animation-name: aparecer;
+ }
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 2;
+    }
+}
+.imagenesContenedor {
+    width: 80%;
+    height: 70%;
+    border: groove 1px grey;
+    border-radius: 50%;
+    margin: 8% 2% 0% 1%;  
+}
+ .imagenDeFondo {
+    background-image: url("Imagenes/Galeria/fondoindex.jpg");
+    font-size: 250%;
+    font-weight: bolder;
+    border-radius: 3%;
+    margin: 3% 0% 0% 0%;
+    padding: 1% 3% 1% 3%;
+    opacity: 200%;
+ }
+ footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 120%;
+    background-color: #b1bfd8;
+    background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+ }
+ footer p{
+    text-align: justify;
+    margin: 2.5% 0% 1% 3%;
+ }
+ .logoPequeno {
+    width: 10%;
+    height: 30%;
+    margin: 12% 0% 0% 0%;   
+ }
+ .formulario {
+   margin: 2% 0% 2% 1.2%;
+ }
+ form {
+    text-align: justify;
+    color: black;
+    margin: 0% 0% 3% 2.5%;
+ }
+ form label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    height: 50%;
+ }
+ textarea {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+ }
+@media screen and (max-width: 480px) {
+     body {
+         text-align: center;
+         width: 100%;
+         float: none;
+     }
+    .bodyColor {
+        background-color: #3c6382;
+        width: 100%;
+        float: none;
+    }
+    .bodyColorNstrosTrabajos {
+        background-image: url(Imagenes/Galeria/subliminal.png);
+        width: 100%;
+        float: none;
+    }
+    .bodyColorSobreNos {
+        background-image: url(Imagenes/Galeria/foundation.png);
+        width: 100%;
+        float: none;
+    }
+    .bodyColorContacto {
+        background-image: url(Imagenes/Galeria/ridge.png);
+        width: 100%;
+        float: none;
+    }
+    #titulo {
+        font-size: 350%;
+    }
+    @keyframes color_titulo {
+        100% {
+            background-color: #273c75;
+            overflow: hidden;
+        }
+    }
+    .menu {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .btn-group {
+        width: 100%;
+        float: none;
+        margin: 0% 0% 0% 0%;
+    }
+    .subtitulosNstrosTrabajos {
+        font-size: 220%;
+        text-align: justify;
+        margin: 4% 0% 2% 1%;
+        transition: all 2s;
+    }
+    .subtitulosNstrosTrabajos:hover {
+        background-color: #786fa6;
+        margin-right: 20%;
+    }
+    .imagenDeFondo {
+        background-image: url("Imagenes/Galeria/fondoindex.jpg");
+        font-size: 180%;
+        font-weight: bolder;
+        text-align: center;
+        border-radius: 3%;
+        margin: 0% 0% 0% 0%;
+        padding: 1% 3% 1% 3%;
+        opacity: 200%;
+     }
+    .titulosSecciones {
+        margin-left: 2%;
+    }
+    .imagenesContenedor {
+        visibility: hidden;
+    }
+    h2 {
+        text-align: center;
+    }
+    p {
+        font-size: 80%;
+        text-indent: 1em;
+        text-align: left;
+        font-family: 'Hind Siliguri', sans-serif;
+        margin: 1% 2% 1% 0%;
+    }
+    .galeriaFotos {
+        margin: 18% 5% 29% 0%;
+    }
+    .formulario {
+     margin: 2% 2% 2% 2%;
+    }
+    footer {
+        font-size: 140%;
+    }
+    .logoPequeno {
+        width: 30%;
+        height: 40%;
+        margin: 12% 0% 0% 0%; 
+}
+}
+@media screen and (max-width:768px) {
+     .bodyColor {
+         background-color: #3c6382;
+     }
+     .btn-group {
+         width: 100%;
+         float: none;
+         margin: 0% 0% 0% 0%;
+     }
+     .menu {
+         overflow-y: hidden;
+         overflow-y: hidden;
+     }
+ }
+@media screen and (max-width:992px) {
+     body {
+         grid-template-columns: repeat (2, 1fr);
+         background-color: #57606f;
+ }
+.btn-group {
+    width: 100%;
+    float: none;
+    margin: 0% 0% 0% 0%;
+}
+.menu {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+}
+@media screen and (max-width:1024px) {
+    body {
+        grid-template-columns: repeat (2, 1fr);
+        background-color: #57606f;
+}
+.btn-group {
+   width: 100%;
+   float: none;
+   margin: 0% 0% 0% 0%;
+}
+.menu {
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+    .logoPequeno {
+        width: 20%;
+        height: 25%;
+        margin: 14% 0% 6% 0%; 
+}
+}
